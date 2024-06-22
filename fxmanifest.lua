@@ -7,7 +7,8 @@ lua54 'yes'
 
 shared_scripts {
     'configs/locales.lua',
-    'configs/config.lua'
+    'configs/config.lua',
+    '@es_extended/imports.lua' -- Comment this line if you don't use ESX.
 }
 
 client_script 'client/client.lua'
